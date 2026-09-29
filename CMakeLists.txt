@@ -28,3 +28,27 @@ add_executable(Exercicio6
         Fundamentos/Ex006/Caneta.h
         Fundamentos/Ex006/main.cpp
 )
+add_executable(Exercicio7
+        Fundamentos/Ex007/ControleRemoto.cpp
+        Fundamentos/Ex007/ControleRemoto.h
+        Fundamentos/Ex007/main.cpp)
+add_executable(Exercicio8
+        "Abstração e Herança/Ex001/Poligono.cpp"
+        "Abstração e Herança/Ex001/Poligono.h"
+        "Abstração e Herança/Ex001/main.cpp")
+add_executable(Exercicio9
+        "Abstração e Herança/Ex002/BebidaQuente.cpp"
+        "Abstração e Herança/Ex002/BebidaQuente.h"
+        "Abstração e Herança/Ex002/main.cpp")
+add_executable(Exercicio10
+        "Abstração e Herança/Ex003/Transporte.cpp"
+        "Abstração e Herança/Ex003/Transporte.h"
+        "Abstração e Herança/Ex003/main.cpp")
+add_executable(Exercicio11
+        "Abstração e Herança/Ex004/Funcionario.cpp"
+        "Abstração e Herança/Ex004/Funcionario.h"
+        "Abstração e Herança/Ex004/main.cpp")
+add_executable(Exercicio12
+        "Abstração e Herança/Ex005/Personagem.cpp"
+        "Abstração e Herança/Ex005/Personagem.h"
+        "Abstração e Herança/Ex005/main.cpp")
