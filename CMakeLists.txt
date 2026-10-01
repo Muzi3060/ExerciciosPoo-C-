@@ -52,3 +52,17 @@ add_executable(Exercicio12
         "Abstração e Herança/Ex005/Personagem.cpp"
         "Abstração e Herança/Ex005/Personagem.h"
         "Abstração e Herança/Ex005/main.cpp")
+add_executable(Exercicio13 Encapsulamento/Ex001/Termostato.cpp Encapsulamento/Ex001/Termostato.h
+        Encapsulamento/Ex001/main.cpp)
+add_executable(Exercicio14 Encapsulamento/Ex002/Diario.cpp Encapsulamento/Ex002/Diario.h
+        Encapsulamento/Ex002/main.cpp)
+add_executable(Exercicio15 Encapsulamento/Ex003/Credencial.cpp Encapsulamento/Ex003/Credencial.h
+        Encapsulamento/Ex003/main.cpp)
+add_executable(Exercicio16 Encapsulamento/Ex004/Retangulo.cpp Encapsulamento/Ex004/Retangulo.h
+        Encapsulamento/Ex004/main.cpp)
+add_executable(Exercicio17 Encapsulamento/Ex005/ContaBancaria.cpp Encapsulamento/Ex005/ContaBancaria.h
+        Encapsulamento/Ex005/main.cpp)
+add_executable(Exercicio18 Encapsulamento/Ex006/Pessoa.cpp Encapsulamento/Ex006/Pessoa.h
+        Encapsulamento/Ex006/main.cpp)
+add_executable(Exercicio19 Polimorfismo/Ex001/Funcionario.cpp Polimorfismo/Ex001/Funcionario.h
+        Polimorfismo/Ex001/main.cpp)
