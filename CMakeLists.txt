@@ -66,3 +66,13 @@ add_executable(Exercicio18 Encapsulamento/Ex006/Pessoa.cpp Encapsulamento/Ex006/
         Encapsulamento/Ex006/main.cpp)
 add_executable(Exercicio19 Polimorfismo/Ex001/Funcionario.cpp Polimorfismo/Ex001/Funcionario.h
         Polimorfismo/Ex001/main.cpp)
+add_executable(Exercicio20 Polimorfismo/Ex002/Arquivo.cpp Polimorfismo/Ex002/Arquivo.h
+        Polimorfismo/Ex002/main.cpp)
+add_executable(Exercicio21 Polimorfismo/Ex003/Pagamento.cpp Polimorfismo/Ex003/Pagamento.h
+        Polimorfismo/Ex003/main.cpp)
+add_executable(Exercicio22 Polimorfismo/Ex004/Mensagem.cpp Polimorfismo/Ex004/Mensagem.h
+        Polimorfismo/Ex004/main.cpp)
+add_executable(Exercicio23 Polimorfismo/Ex005/Carrinho.cpp Polimorfismo/Ex005/Carrinho.h
+        Polimorfismo/Ex005/main.cpp)
+add_executable(Exercicio24 Polimorfismo/Ex006/Validar.cpp Polimorfismo/Ex006/Validar.h
+        Polimorfismo/Ex006/main.cpp)
