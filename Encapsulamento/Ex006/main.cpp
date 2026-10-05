@@ -8,7 +8,7 @@
 int main()
 {
 
-    Aluno aluno1("João", 2000, "ADM");
+    Classes aluno1("João", 2000, "ADM");
     std::cout << "Nome: " << aluno1.getNome() << std::endl;
     std::cout << "Curso: " << aluno1.getCurso() << std::endl;
     std::cout << "Idade: " << aluno1.getNascimento() << std::endl;

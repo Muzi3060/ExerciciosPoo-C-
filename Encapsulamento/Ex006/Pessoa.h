@@ -23,13 +23,13 @@ public:
     void setNascimento(int novaIdade);
 };
 
-class Aluno : public Pessoa
+class Classes : public Pessoa
 {
 private:
     std::vector<std::string> cursosOficiais = {"ADS", "CC", "ADM", "ENG", "MED"};
     std::string curso;
 public:
-    Aluno(std::string nome, int nascimento, std::string curso);
+    Classes(std::string nome, int nascimento, std::string curso);
     std::string getCurso() { return curso; }
     void addCurso(std::string novoCurso);
     void setCurso(std::string curso);

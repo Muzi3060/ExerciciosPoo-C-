@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 4.3)
 project(ExerciciosPoo)
+find_package(nlohmann_json CONFIG REQUIRED)
 
 set(CMAKE_CXX_STANDARD 20)
 
@@ -76,3 +77,7 @@ add_executable(Exercicio23 Polimorfismo/Ex005/Carrinho.cpp Polimorfismo/Ex005/Ca
         Polimorfismo/Ex005/main.cpp)
 add_executable(Exercicio24 Polimorfismo/Ex006/Validar.cpp Polimorfismo/Ex006/Validar.h
         Polimorfismo/Ex006/main.cpp)
+add_executable(Exercicio25 Polimorfismo/Ex007/Classes.cpp Polimorfismo/Ex007/Classes.h
+        Polimorfismo/Ex007/main.cpp)
+
+target_link_libraries(Exercicio25 PRIVATE nlohmann_json::nlohmann_json)

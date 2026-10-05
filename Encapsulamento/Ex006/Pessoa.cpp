@@ -9,7 +9,7 @@ Pessoa::Pessoa(std::string nome, int nascimento)
     : nome(nome), nascimento(nascimento){
 }
 
-Aluno::Aluno(std::string nome, int nascimento, std::string curso)
+Classes::Classes(std::string nome, int nascimento, std::string curso)
     : Pessoa(nome, nascimento)
 {
     if (std::find(cursosOficiais.begin(), cursosOficiais.end(), curso) != cursosOficiais.end()) {
@@ -19,7 +19,7 @@ Aluno::Aluno(std::string nome, int nascimento, std::string curso)
     }
 }
 
-void Aluno::setCurso(std::string curso)
+void Classes::setCurso(std::string curso)
 {
     if (std::find(cursosOficiais.begin(), cursosOficiais.end(), curso) != cursosOficiais.end()) {
         this->curso = curso;
@@ -42,7 +42,7 @@ void Pessoa::setNascimento(int novaIdade)
     }
 }
 
-void Aluno::addCurso(std::string novoCurso)
+void Classes::addCurso(std::string novoCurso)
 {
     for (const auto& curso : cursosOficiais) {
         if (novoCurso == curso) {
